@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+ }
+  
+     body {
+      background-color: #F0F0F0;
+    }
+
+    .Body_Text  {
+
+      background-color: white;
+      width: 900px ;
+      margin:auto;
+      padding: 30px;
+
+    }
+
+    .Welcome_H2 {
+      text-align: center;
+      padding-top: 20px;
+    }
+  
+   .Account_Text  {
+     width:940px;
+     background-color:#2C2F33;
+     margin:auto; 
+     color: #fff;
+     padding:18px 10px 18px 10px ;
+     text-align: center;
+     border-radius:8px 8px 0px 0px;
+     font-size: 22px;
+     margin-top:250px;
+    }
+    
+   .Welcome_Text  {
+     width:940px;
+     background-color:#2C2F33;
+     margin:auto; 
+     color: #fff;
+     padding:18px 10px 18px 10px ;
+     text-align: center;
+     border-radius:8px 8px 0px 0px;
+     font-size: 22px;
+     margin-top:250px ;
+     font-weight: 600;
+   }
+
+
+
+    .form {
+      background-color: white;
+      width: 900px ;
+      margin:auto;
+      padding: 30px;
+    }
+  
+    
+
+    .form_chat {
+      margin-top:490px; 
+      background-color: white;
+      width: 1200px;
+      margin:auto;
+      padding-top: 100px;
+      position: relative;
+      top: 70px;
+    }
+
+
+
+    .email  {
+      border: 1px solid rgba(252, 252, 252, 0.4);
+      background-color: rgba(252, 252, 252, 0.2);
+      width: 370px;
+      border-radius: 5px;
+      border-color: #E0E0E0 ; 
+      padding: 14px 15px;
+      margin: 50px auto 50px auto;
+      display: block;
+      font-size: 18px;
+      color: black;
+      font-weight: 300;
+    }
+  
+
+
+    .Password {
+      border: 1px solid rgba(252, 252, 252, 0.4);
+      background-color: rgba(252, 252, 252, 0.2);
+      width: 370px;
+      border-radius: 5px; 
+      border-color: #E0E0E0 ; 
+      padding: 14px 15px;
+      margin: 0 auto 40px auto;
+      display: block;
+      font-size: 18px;
+      color: black;
+      font-weight: 300;
+    }
+   
+
+    .Current{
+
+      text-align:center ;
+      font-size: 20px;
+      color: white;
+      font-weight: 600;
+    }
+
+
+    .Login_Button {
+      appearance: none;
+      outline: 0;
+      background-color: #2C2F33;
+      border: 0;
+      padding: 14px 15px;
+      color: #fff;
+      border-radius: 3px;
+      width: 400px;
+      font-size: 18px;
+      margin: 50px auto 100px auto;
+      border-radius: 5px;
+      display: block;
+      cursor:pointer;
+    }
+
+
+  
+    .Login_Button:hover {
+      background: #23272A;
+    }
+   
+
+
+    ::placeholder {  
+      text-align: left;
+      color: #909090;
+    }
+  
+
+
+    .Copyright  {
+      text-align: center;
+      margin: 150px auto 100px auto;
+      padding: 115px 15px;
+    }
+
+
+
+    .Redirect {
+      position: relative;
+      font-weight: 600;
+      left: 650px;
+    }
+
+
+
+    .Welcome_Register_Link  {
+      text-decoration: none;
+      color:white;
+    }
+  
+
+
+    .Welcome_Login_Link{
+      text-decoration: none;
+      color:white;
+    }
+
+
+    .Welcome_Register_Link_Button{
+      font-weight:600;
+      appearance: none;
+      outline: 0;
+      background-color: #2C2F33;
+      border: 0;
+      padding: 14px 15px;
+      color: #fff;
+      width: 150px;
+      font-size: 18px;
+      margin: 50px auto;
+      border-radius: 8px;
+      display: block;
+      cursor:pointer;
+      position: relative;
+      right:130px;
+      top:71px;
+
+    }
+
+
+    .Welcome_Login_Link_Button{
+      font-weight:600;
+      appearance: none;
+      outline: 0;
+      background-color: #2C2F33;
+      border: 0;
+      padding: 14px 15px;
+      color: #fff;
+      width: 150px;
+      font-size: 18px;
+      margin: 50px auto 100px auto;
+      border-radius: 8px;
+      display: block;
+      cursor:pointer;
+      position: relative;
+      left:130px;
+      bottom:30px;
+    }
+
+
+     .Chat_Interface_Text{
+      position: relative;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      position: fixed;
+      width:100%;
+      background-color:#4ea4dc;
+      margin:auto; 
+      color: #fff;
+      padding:18px 10px 18px 10px ;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+
+    .Text_font{
+      margin-top: 40px;
+      margin-left: 50px;
+      Right:20px;
+      font-size: 20px;
+      font-weight:600;
+      display: block;
+      color:#F0F0F0;
+  
+    }
+
+    /* The sidebar menu */
+    .sidenav {
+       height: 100%;
+       width: 400px; 
+       position: fixed; 
+       z-index: 1; 
+       top: 0; 
+       left: 0;
+       background-color:#23272A;
+       overflow-x: hidden; 
+    }
+
+
+    .Contacts{
+      position: relative;
+      top:px;
+      font-size:21px; 
+      text-align: center;
+      color:#F0F0F0;
+    }
+
+
+    .Messages{
+      text-align: left;
+      float:right;
+      margin-left: 400px; 
+      width:100%;
+      height:94.9%;
+      position:fixed;
+      border:1px; 
+      overflow:auto;
+      background-color: #2C2F33;
+  
+    }
+    
+    .userSent{ 
+      margin-top: 40px;
+      margin-left: 50px;
+      Right:20px;
+      font-size: 20px;
+      font-weight:600;
+      display: block;
+      color:#F0F0F0;
+    }
+
+    .friendSent {
+      margin-top: 40px;
+      margin-left: 50px;
+      Right:20px;
+      font-size: 20px;
+      font-weight:600;
+      display: block;
+      color:rgb(137, 151, 238);
+    }
+
+    .Send_Button_Chat{
+
+      position: fixed;
+      right: 0px;
+      height:72px;
+      bottom:0%;
+      float: right;
+      appearance: none;
+      outline: 0;
+      background-color: #4ea4dc;
+      border: 0;
+      padding: 14px 15px;
+      color: #fff;
+      width: 5%;
+      font-size: 18px;
+      display: block;
+      cursor:pointer;
+      margin: 0px auto 0px auto;
+      
+    }
+
+
+    .TextBox{
+      width: 80%;
+      height:30px;
+      margin-left: 400px;
+      border:transparent;
+      padding: 20px 15px;
+      display: block;
+      font-size: 18px;
+      color: black;
+      font-weight: 300;
+      position: fixed;
+      bottom:0%;
+    }
+    
+
+    .TextBox:focus{
+      outline:none;
+    }
+
+    .Chat_Login_Link_Button{
+      position: relative;
+      top:85px;
+      left:540px;
+      font-weight:600;
+      appearance: none;
+      outline: 0;
+      background-color: #2C2F33;
+      border: 0;
+      padding: 14px 15px;
+      color: #fff;
+      width: 150px;
+      font-size: 18px;
+      margin: auto;
+      border-radius: 25px;
+      display: block;
+      cursor:pointer;
+    }
+
+    .avatar {
+      vertical-align: middle;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      
+    }
+
+    .Logout_avatar {
+      vertical-align: middle;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      
+    }
+
+    .Username{
+      display: flex;
+      align-items:center;
+      appearance: none;
+      border: none;
+      padding: 14px 15px;
+      color: #fff;
+      border-radius: 3px;
+      width: 400px;
+      font-size: 19px;
+      cursor:pointer;
+  
+    }
+   
+    .Username_Text{
+      position: relative;
+      left:20px;
+      color:white;
+      font-weight: bold;
+    }
+
+    .Text_Button{
+      position: relative;
+      top:70px;
+      padding: 0;
+      border: none;
+      background-color: #23272A;
+    }
+
+    
+    .Text_Button:focus{
+      outline: none;
+    }
+
+    .NewMessage{
+
+      position: fixed;
+      top: 30px;
+      border-radius: 10px;
+      outline: none;
+      cursor: pointer;
+      font-size: 20px;
+
+    }
+
+      
+    .NewMessage_Text{
+      position: relative;
+      color:rgb(137, 151, 238);
+      font-weight: bold;
+    }
+
+
+    .Contact{
+      position:relative;
+      top:50px;
+      color:white;
+     }
+
+     
+    .Contact:hover{
+        background-color: gray;
+     }
+    
+     
+
+    .ErrorMessage{
+      text-align: center;
+      color:#ff3333;
+      font-weight: 600;
+    }
+    
+    .Logout{
+        position: fixed;
+        bottom: 0px;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        cursor: pointer;
+        font-size: 25px;
+    }
+
+   
+    .Logout_Text{
+      position: relative;
+      color:rgb(202, 208, 247);
+      font-weight: bold;
+    }
